@@ -1,0 +1,17 @@
+/* Ensure entire card is clickable */
+.card-link {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Optional: Add hover effect on card link */
+.card-link:hover {
+    background-color: #f1f1f1;
+    text-decoration: none;
+}
+
+/* Optional: Ensure the text inside the card is readable when linked */
+.card-link .card-body {
+    cursor: pointer;
+}
